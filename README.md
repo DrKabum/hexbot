@@ -1,2 +1,2 @@
 # hexbot
- My fork to the noops challenger with hexbot
+ My fork to the noops challenge with hexbot
