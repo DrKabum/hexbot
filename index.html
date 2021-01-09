@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meet Hexbot</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <h1>Meet the Noops : HexBot</h1>
+    <p>A beautiful random pointilist piece of art served to you by
+      <a href="https://github.com/noops-challenge/hexbot">HexBot</a>
+    <p>
+  </header>
+
+  <main role="main">
+    <div class="container">
+      <div class="hex-box" id="tile-box"></div>
+      <div class="side-bar">
+        <h2>What's happening?</h2>
+        <p>Hexbot is a robot and an artist. Everytime you load this page or refresh the button below, he's sending us all the colors he wants in our painting through his API. We just put them together in this box for you !</p>
+        <h2>Choose your number of colors:</h2>
+        <form id="option-form">
+          <label for name="">5x5
+            <input type="radio" id="5" name="size" value="25" selected>
+          </label>
+          <label for name="">20x20
+            <input type="radio" id="20" name="size" value="400">
+          </label>
+          <label for name="">50x50
+            <input type="radio" id="50" name="size" value="2500">
+          </label>
+          <label for name="">100x100
+            <input type="radio" id="100" name="size" value="10000">
+          </label>
+        </form>
+      </div>
+    </div>    
+    <button id="refresh-tiling">
+      Refresh!
+    </button>
+    <div id="loader" class="lds-dual-ring hidden"></div>
+  </main>
+
+  <footer>
+    <p class="fine-text">Beauty from GitHub -
+      <a href="https://noopschallenge.com/">
+        Noops challenge
+      </a>
+    </p>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
